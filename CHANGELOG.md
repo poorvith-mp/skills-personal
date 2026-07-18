@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2 — July 2026
+
+- Added `fitness-nutrition-planner` skill — workout routines and general meal-structure guidance
+- Skill count synced to **11** in README
+
 ## v0.1 — July 2026
 
 - Initial public import of `skills-personal` by Poorvith M P
