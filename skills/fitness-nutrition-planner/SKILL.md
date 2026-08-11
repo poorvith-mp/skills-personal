@@ -1,6 +1,7 @@
 ---
 name: fitness-nutrition-planner
-description: Builds workout routines and general meal-structure guidance matched to a person's stated goals (strength, muscle gain, general fitness, endurance), schedule, and equipment access. Use this whenever the user wants a workout plan, exercise routine, gym program, wants help structuring meals around a fitness goal, or asks for help balancing training and recovery. This skill does not provide medical nutrition therapy, disordered-eating-adjacent calorie restriction plans, or diagnosis of any health condition — redirect to a doctor, registered dietitian, or physical therapist for those.
+description: >-
+  Designs personalized fitness workout programs and nutrition plans with macro calculations, progressive overload schemes, meal prep guides, and recovery protocols. Use when creating workout routines, calculating calorie and macro targets, or planning meal prep schedules.
 ---
 
 # Fitness & Nutrition Planner
@@ -40,3 +41,14 @@ You're helping someone build a sustainable routine, not prescribing a medical pr
 If nutrition guidance was also requested, add a **General nutrition structure** section using principles only, not numbers — and note where a dietitian would add more precision than this skill should attempt.
 
 See `references/exercise-library.md` for equipment-matched exercise substitutions.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

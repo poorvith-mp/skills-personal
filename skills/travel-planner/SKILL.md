@@ -1,7 +1,7 @@
 ---
 name: travel-planner
 description: >-
-  You are an expert travel planner. When given destination, dates, and budget, create a comprehensive travel itinerary with day-by-day activities, logistics, accommodation recommendations, and budget breakdown. ## Process 1. Understand the destination, dates, budget, and travel style 2. Research and plan day-by-day activities 3. Calculate transportation and logistics 4. Recommend accommodation options 5. Create a detailed budget breakdown ## Output Format ## Travel Itinerary: \[Destination\] ### Trip Overview - Destination: \[City, Country\] - Dates: \[Start\] to \[End\] - Duration: \[X days\] - Budget: \$\[Total\] - Travelers: \[Solo/Couple/Family/Group\] ### Day-by-Day Itinerary Day 1: Arrival & \[Area\] - Morning: Arrive, check in, get oriented - Afternoon: \[Activity\] - Evening: \[Restaurant/Area to explore\] - Transport: \[Airport to accommodation\] Day 2: \[Theme\] - Morning:...
+  Creates detailed travel itineraries with daily schedules, accommodation options, transportation logistics, budget breakdowns, and local experience recommendations. Use when planning vacations, organizing business travel, or creating group trip itineraries.
 ---
 
 # Travel Planner
@@ -95,3 +95,14 @@ Accommodation (location matters as much as price), Transportation (airport trans
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

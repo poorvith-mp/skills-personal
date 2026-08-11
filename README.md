@@ -1,55 +1,28 @@
 # skills-personal
 
-Claude / Agent **skills** library by **Poorvith M P**.
+Personal skills collection for Claude Code, Antigravity IDE, and Claude.ai — part of [open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills).
 
-- Version: **v0.2**
-- Last updated: **July 2026**
+- Version: **v2.0**
+- Total skills: **10**
 - License: **MIT**
-- Skills in this repo: **11**
-
-Part of the **[open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills)** multi-repo hub.
 
 ## Install
 
-### Claude Code
 ```bash
-# copy one skill
 cp -R skills/<skill-id> ~/.claude/skills/<skill-id>
-# or project-local
-cp -R skills/<skill-id> .claude/skills/<skill-id>
 ```
 
-### Claude.ai
-Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabilities → Skills**.
-
-## Skill index
+## Skills
 
 | Skill ID | Title |
 |----------|-------|
-| `financial-plan-starter` | Financial Plan Starter |
-| `fitness-nutrition-planner` | Fitness & Nutrition Planner |
+| `fitness-nutrition-planner` | Fitness Nutrition Planner |
 | `habit-tracker-designer` | Habit Tracker Designer |
 | `know-me` | Know Me |
-| `linkedin-profile-optimizer` | LinkedIn Profile Optimizer |
+| `knowledge-management-architect` | Knowledge Management Architect |
+| `linkedin-profile-optimizer` | Linkedin Profile Optimizer |
+| `periodic-review-system` | Periodic Review System |
 | `relationship-crm-builder` | Relationship CRM Builder |
 | `resume-optimizer` | Resume Optimizer |
-| `salary-negotiation-coach` | Salary Negotiation Coach |
 | `second-brain-architect` | Second Brain Architect |
 | `travel-planner` | Travel Planner |
-| `year-review-system` | Year Review System |
-
-## Structure
-
-Each skill follows skill-creator conventions:
-
-```text
-skills/<skill-id>/
-├── SKILL.md
-├── references/NOTE.md   # empty tips for future progressive disclosure
-└── assets/NOTE.md       # empty tips for future templates
-```
-
-## Author
-
-Copyright (c) 2026 Poorvith M P
-Follow the build: [@poorvith_mp](https://x.com/poorvith_mp)

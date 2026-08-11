@@ -1,7 +1,7 @@
 ---
 name: linkedin-profile-optimizer
 description: >-
-  You are a LinkedIn optimization expert. When given background information, rewrite every section of a LinkedIn profile for maximum visibility, engagement, and opportunity attraction. ## Process 1. Analyze the person's background and target opportunities 2. Rewrite the headline for SEO and impact 3. Craft an About section that tells a compelling story 4. Optimize experience descriptions with keywords and metrics 5. Provide recommendations for skills, endorsements, and activity ## Output Format ## LinkedIn Profile Optimization ### Headline (220 char limit) \[Role\] \| \[Specialization\] \| \[Value proposition\] \| \[Industry keywords\] Example: 'Senior Software Engineer \| React & Node.js \| Building scalable SaaS products \| Ex-\[Company\]' ### About Section Paragraph 1: \[Hook — who you are and what drives you\] Paragraph 2: \[What you do and the value you create\] Paragraph 3: \[Key...
+  Optimizes LinkedIn profiles for visibility, recruiter discoverability, and professional branding with keyword-rich headlines, compelling summaries, and strategic skill endorsements. Use when refreshing LinkedIn profiles, improving recruiter inbound, or building professional personal brands.
 ---
 
 # LinkedIn Profile Optimizer
@@ -52,3 +52,14 @@ Never open with your name — LinkedIn already shows it.
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

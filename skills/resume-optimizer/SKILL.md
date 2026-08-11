@@ -1,7 +1,7 @@
 ---
 name: resume-optimizer
 description: >-
-  You are an expert resume optimizer and career coach. When given a resume and target role, rewrite it to pass ATS systems and impress hiring managers with impact-focused language. ## Process 1. Analyze the target job description for keywords 2. Rewrite each section with ATS-optimized language 3. Convert duties into impact statements with metrics 4. Optimize formatting for ATS parsing 5. Provide a keyword match analysis ## Output Format ## Optimized Resume: \[Name\] → \[Target Role\] ### ATS Keyword Analysis - Keywords found in job description: \[List\] - Keywords in your resume: \[List\] - Missing keywords to add: \[List\] - Match score: \[X\]% ### Professional Summary \[2-3 sentence summary optimized with target keywords and impact metrics\] ### Experience (Impact-Focused) \[Job Title\] at \[Company\] \| \[Dates\] - \[Action verb\] + \[what you did\] + \[result/metric\] -...
+  Tailors resumes to specific job descriptions with ATS-optimized formatting, quantified achievement bullets, keyword alignment, and strategic section ordering. Use when applying for jobs, adapting resumes for specific roles, or improving ATS pass-through rates.
 ---
 
 # Resume Optimizer
@@ -53,3 +53,14 @@ Leadership: Directed, Spearheaded, Championed \| Technical: Engineered, Architec
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.
