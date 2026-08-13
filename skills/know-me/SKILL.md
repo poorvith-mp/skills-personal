@@ -74,12 +74,14 @@ When saving a new memory entry to a topic file:
 3. Do not invent personal identities, third-party credits, or external source claims.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] The person's actual stated constraints captured, not assumed defaults.
+- [ ] Plan is adjustable and states what to do when a week is missed.
+- [ ] Cadence is realistic against the time the person actually said they have.
+- [ ] Medical, legal, and financial limits respected and stated.
 
 ## Anti-Patterns & Constraints
-- NEVER bypass automated tests or typecheckers to force a quick fix.
-- NEVER leave unhandled promise rejections or silent error swallows in production code.
-- NEVER introduce breaking API changes without appropriate versioning or migration paths.
+
+- NEVER give clinical, dietary, or dosage advice as though prescribing.
+- NEVER build a plan on unstated assumptions about someone's life or income.
+- NEVER set a cadence the person has not agreed is achievable.
