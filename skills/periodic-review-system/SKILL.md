@@ -1,7 +1,8 @@
 ---
 name: periodic-review-system
 description: >-
-  Guides structured weekly, monthly, and annual productivity reviews, goal tracking (OKRs), project retrospectives, and life planning cadences. Use when conducting a weekly review, monthly retrospective, or annual goal planning session.
+  Structures weekly, monthly and annual reviews with goal tracking, OKRs and retrospectives. Use
+  when setting up a review cadence, running a weekly review, or planning a quarter.
 ---
 
 # Periodic Review System

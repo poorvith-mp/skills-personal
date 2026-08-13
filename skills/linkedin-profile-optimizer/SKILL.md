@@ -1,7 +1,9 @@
 ---
 name: linkedin-profile-optimizer
 description: >-
-  Optimizes LinkedIn profiles for visibility, recruiter discoverability, and professional branding with keyword-rich headlines, compelling summaries, and strategic skill endorsements. Use when refreshing LinkedIn profiles, improving recruiter inbound, or building professional personal brands.
+  Rewrites LinkedIn profiles for recruiter search and positioning: keyword-rich headline, summary
+  and skills. Use when job hunting, repositioning after a career change, or improving profile
+  visibility.
 ---
 
 # LinkedIn Profile Optimizer

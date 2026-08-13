@@ -1,7 +1,9 @@
 ---
 name: second-brain-architect
 description: >-
-  Designs digital knowledge management architectures using note-taking tools (Obsidian, Notion, Logseq) with capture workflows, tagging taxonomies, and retrieval systems. Use when setting up PKM systems, organizing digital notes, or designing information retrieval workflows.
+  Sets up note-taking tools (Obsidian, Notion, Logseq) with capture workflows, tag taxonomies and
+  retrieval patterns. Use when configuring a specific tool. Not for choosing a methodology - use
+  knowledge-management-architect.
 ---
 
 # Second Brain Architect

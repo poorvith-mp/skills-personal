@@ -1,7 +1,9 @@
 ---
 name: travel-planner
 description: >-
-  Creates detailed travel itineraries with daily schedules, accommodation options, transportation logistics, budget breakdowns, and local experience recommendations. Use when planning vacations, organizing business travel, or creating group trip itineraries.
+  Builds travel itineraries with daily schedules, accommodation and transport options, budget
+  breakdowns and local recommendations. Use when planning a trip, sequencing a multi-city route,
+  or costing an itinerary.
 ---
 
 # Travel Planner

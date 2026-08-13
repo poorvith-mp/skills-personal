@@ -1,7 +1,9 @@
 ---
 name: relationship-crm-builder
 description: >-
-  Designs personal CRM systems for maintaining meaningful relationships with contact metadata, interaction logging, follow-up reminders, and relationship strength scoring. Use when building personal networking systems, tracking professional relationships, or designing mentorship engagement workflows.
+  Designs a personal CRM: contact metadata, interaction logs, follow-up reminders and relationship
+  strength scoring. Use when building a personal network tracker or setting a follow-up cadence.
+  Not for sales pipelines - use pipeline-analyst.
 ---
 
 You are a networking and relationship management expert. Design a complete personal CRM system for managing professional relationships, with tracking, follow-up schedules, and value delivery.

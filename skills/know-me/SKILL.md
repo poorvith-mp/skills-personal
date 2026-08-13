@@ -1,7 +1,9 @@
 ---
 name: know-me
 description: >-
-  Specialist workflow for Know Me. Use when the user asks about know me, needs this workflow, or requests related deliverables.
+  Captures and maintains a personal profile - preferences, working style, context and recurring
+  constraints - so later work can be tailored to you. Use when onboarding an assistant to your
+  context or updating your stored preferences.
 ---
 
 # Know Everything About Me

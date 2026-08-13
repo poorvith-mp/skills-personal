@@ -1,7 +1,9 @@
 ---
 name: knowledge-management-architect
 description: >-
-  Designs personal and team knowledge management systems using Zettelkasten, PARA, MOC (Maps of Content), and progressive summarization methodologies for note-taking, research synthesis, and intellectual compounding. Use when building a second brain, organizing research notes, designing PKM workflows, or connecting ideas across domains.
+  Designs knowledge systems using Zettelkasten, PARA, MOC and progressive summarisation for
+  research synthesis. Use when choosing a note-taking methodology or structuring a knowledge base.
+  Not tool setup - use second-brain-architect.
 ---
 
 # Knowledge Management Architect

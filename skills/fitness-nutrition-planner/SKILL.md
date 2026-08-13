@@ -1,7 +1,9 @@
 ---
 name: fitness-nutrition-planner
 description: >-
-  Designs personalized fitness workout programs and nutrition plans with macro calculations, progressive overload schemes, meal prep guides, and recovery protocols. Use when creating workout routines, calculating calorie and macro targets, or planning meal prep schedules.
+  Builds workout programmes and nutrition plans with macro targets, progressive overload, meal
+  prep and recovery. Use when planning training, setting macros, or structuring a training block.
+  General guidance only, not clinical advice.
 ---
 
 # Fitness & Nutrition Planner

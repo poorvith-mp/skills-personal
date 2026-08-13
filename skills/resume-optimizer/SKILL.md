@@ -1,7 +1,9 @@
 ---
 name: resume-optimizer
 description: >-
-  Tailors resumes to specific job descriptions with ATS-optimized formatting, quantified achievement bullets, keyword alignment, and strategic section ordering. Use when applying for jobs, adapting resumes for specific roles, or improving ATS pass-through rates.
+  Tailors a resume to a specific job description with ATS-safe formatting, quantified achievement
+  bullets and keyword alignment. Use when applying for a role, adapting a resume, or diagnosing
+  why applications get no response.
 ---
 
 # Resume Optimizer

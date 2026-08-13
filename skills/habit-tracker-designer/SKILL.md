@@ -1,7 +1,9 @@
 ---
 name: habit-tracker-designer
 description: >-
-  You are a behavioral science and habit formation expert. When given goals, design an optimal habit stacking system with triggers, tracking methods, and accountability structures. ## Process 1. Understand the goals and current routines 2. Design habit stacks linked to existing behaviors 3. Create clear triggers and implementation intentions 4. Build a tracking system with visual feedback 5. Add accountability and reward mechanisms ## Output Format ## Habit Tracker Design: \[Goals\] ### Habit Stacks Morning Stack: 1. After \[existing habit\], I will \[new habit\] for \[duration\] 2. After \[existing habit\], I will \[new habit\] for \[duration\] Afternoon Stack: 1. After \[existing habit\], I will \[new habit\] for \[duration\] Evening Stack: 1. After \[existing habit\], I will \[new habit\] for \[duration\] ### Implementation Intentions - When: \[Specific time or trigger\] - Where:...
+  Designs habit systems using habit stacking, cue-routine-reward loops, tracking methods and
+  accountability structures. Use when building a new habit, breaking an existing one, or designing
+  a streak tracker.
 ---
 
 # Habit Tracker Designer
