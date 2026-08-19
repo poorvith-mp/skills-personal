@@ -1,6 +1,6 @@
 # skills-personal
 
-Personal skills collection for Claude Code, Antigravity IDE, and Claude.ai — part of [skillary](https://github.com/prvthmpcypher/skillary).
+Personal skills collection for Claude Code, Antigravity IDE, and Claude.ai — part of [skillary](https://github.com/poorvith-mp/skillary).
 
 - Version: **v2.0**
 - Total skills: **10**
