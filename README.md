@@ -1,28 +1,48 @@
 # skills-personal
 
-Personal skills collection for Claude Code, Antigravity IDE, and Claude.ai — part of [skillary](https://github.com/poorvith-mp/skillary).
+Personal skills collection for Claude Code, Cursor, Codex, Gemini CLI, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).
 
-- Version: **v2.0**
-- Total skills: **10**
-- License: **MIT**
+- **Version**: `v3.0.0`
+- **Total Skills**: `10`
+- **License**: MIT
+- **Hub Repository**: [poorvith-mp/skillary](https://github.com/poorvith-mp/skillary)
 
 ## Install
 
+Install the entire collection via `npx skills`:
 ```bash
-cp -R skills/<skill-id> ~/.claude/skills/<skill-id>
+npx skills add poorvith-mp/skills-personal
 ```
 
-## Skills
+Or install individual skills directly:
+```bash
+npx skills add poorvith-mp/skills-personal --skill <skill-id>
+```
 
-| Skill ID | Title |
-|----------|-------|
-| `fitness-nutrition-planner` | Fitness Nutrition Planner |
-| `habit-tracker-designer` | Habit Tracker Designer |
-| `know-me` | Know Me |
-| `knowledge-management-architect` | Knowledge Management Architect |
-| `linkedin-profile-optimizer` | Linkedin Profile Optimizer |
-| `periodic-review-system` | Periodic Review System |
-| `relationship-crm-builder` | Relationship CRM Builder |
-| `resume-optimizer` | Resume Optimizer |
-| `second-brain-architect` | Second Brain Architect |
-| `travel-planner` | Travel Planner |
+For Claude Code plugin marketplace:
+```bash
+/plugin install poorvith-mp/personal
+```
+
+## Skills in this Collection
+
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `fitness-nutrition-planner` | [Fitness & Nutrition Planner](skills/fitness-nutrition-planner/SKILL.md) | >- |
+| `habit-tracker-designer` | [Habit Tracker Designer](skills/habit-tracker-designer/SKILL.md) | >- |
+| `know-me` | [Know Everything About Me](skills/know-me/SKILL.md) | >- |
+| `knowledge-management-architect` | [Knowledge Management Architect](skills/knowledge-management-architect/SKILL.md) | >- |
+| `linkedin-profile-optimizer` | [LinkedIn Profile Optimizer](skills/linkedin-profile-optimizer/SKILL.md) | >- |
+| `periodic-review-system` | [Periodic Review System](skills/periodic-review-system/SKILL.md) | >- |
+| `relationship-crm-builder` | [Relationship CRM Builder](skills/relationship-crm-builder/SKILL.md) | >- |
+| `resume-optimizer` | [Resume Optimizer](skills/resume-optimizer/SKILL.md) | >- |
+| `second-brain-architect` | [Second Brain Architect](skills/second-brain-architect/SKILL.md) | >- |
+| `travel-planner` | [Travel Planner](skills/travel-planner/SKILL.md) | >- |
+
+## Author & Maintenance
+
+Authored and curated by **[Poorvith M P](https://github.com/poorvith-mp)** as part of the [Skillary](https://github.com/poorvith-mp/skillary) modular skills architecture.
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
