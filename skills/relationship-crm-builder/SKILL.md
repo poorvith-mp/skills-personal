@@ -75,7 +75,7 @@ You are a networking and relationship management expert. Design a complete perso
 ## What to Track
 Contact info, Relationship context (how you met, shared interests), Last interaction (date, what you talked about), Next action (what did you say you'd do?), Notes (personal details that matter), Relationship strength (determines follow-up frequency).
 ## Follow-Up Frequency
-Close relationships (mentors, key collaborators): Monthly \| Medium (useful connections): Quarterly \| Loose (acquaintances): 2-3×/year.
+Close relationships (mentors, key collaborators): Monthly | Medium (useful connections): Quarterly | Loose (acquaintances): 2-3×/year.
 ## Touching Base Without Awkwardness
 Best follow-ups have a reason: share a relevant article, congratulate on a milestone, reference something they mentioned, ask for their opinion on something they know well.
 No reason? "Hey, we haven't caught up in a while — would you be up for a 15-min call?" works perfectly for genuine connections.

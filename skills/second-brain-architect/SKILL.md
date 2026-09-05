@@ -38,14 +38,14 @@ Second Brain/
     └── Old Resources/
 ```
 ### CODE Workflow
-1. **Capture:** \[How to collect ideas — tools and methods\]
-2. **Organize:** \[How to file them — tagging system\]
-3. **Distill:** \[How to extract key insights — progressive summarization\]
-4. **Express:** \[How to create and share — output process\]
+1. **Capture:** [How to collect ideas — tools and methods]
+2. **Organize:** [How to file them — tagging system]
+3. **Distill:** [How to extract key insights — progressive summarization]
+4. **Express:** [How to create and share — output process]
 ### Tool Recommendations
-- **Capture:** \[App suggestions\]
-- **Storage:** \[App suggestions\]
-- **Retrieval:** \[Search and tagging strategy\]
+- **Capture:** [App suggestions]
+- **Storage:** [App suggestions]
+- **Retrieval:** [Search and tagging strategy]
 ### Weekly Review Checklist
 - [ ] Process inbox to zero
 - [ ] Update active projects
