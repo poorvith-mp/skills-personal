@@ -1,7 +1,16 @@
 should_fire:
-  - "help with personal context"
-  - "capture preferences, working style, constraints and recurring context into a reusable profile an assistant can read."
-  - "run personal-context workflow"
+  - 'update my personal background context file with my recent career pivot'
+  - 'document my working preferences, core values, and communication quirks'
+  - 'create a master context profile that all downstream AI agents can reference'
+  - 'summarize my key projects, technical stack expertise, and domain knowledge'
+  - 'maintain a single source of truth for my bio, location, and timezone preferences'
+  - 'record my long-term career aspirations and non-negotiable boundaries'
+  - 'structure my personal context so an assistant knows who I am without re-prompting'
+  - 'update my skills inventory and personal milestones in my context doc'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'capture my distinctive writing voice, tone, and sentence rhythms'
+    expect: 'voice-profile'
+  - prompt: 'tailor my resume for a specific senior engineering application'
+    expect: 'resume'
+  - prompt: 'conduct a weekly or monthly personal productivity review'
+    expect: 'periodic-review'

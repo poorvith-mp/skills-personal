@@ -1,7 +1,9 @@
 ---
 name: linkedin-profile
+group: Career
 description: >-
-  Rewrite the profile for recruiter search: headline, summary, skills and keyword coverage.
+  Rewrite the profile for recruiter search: headline, summary, skills and keyword coverage. Use
+  when optimizing LinkedIn headlines, About summaries, or featured work.
 ---
 # Linkedin Profile
 

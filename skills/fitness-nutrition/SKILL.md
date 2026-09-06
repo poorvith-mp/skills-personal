@@ -1,7 +1,9 @@
 ---
 name: fitness-nutrition
+group: Habits and health
 description: >-
-  Build workout programmes and nutrition plans with macro targets, progressive overload and meal prep.
+  Build workout programmes and nutrition plans with macro targets, progressive overload and meal
+  prep. Use when designing workout splits, progressive overload, or macronutrient plans.
 ---
 # Fitness Nutrition
 

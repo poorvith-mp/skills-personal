@@ -1,7 +1,9 @@
 ---
 name: productivity-audit
+group: Knowledge and productivity
 description: >-
-  Audit your week for time sinks, context-switching cost and tool sprawl.
+  Audit your week for time sinks, context-switching cost and tool sprawl. Use when auditing
+  calendar time, task workflows, context switching, or energy.
 ---
 # Productivity Audit
 

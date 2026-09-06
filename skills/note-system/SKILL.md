@@ -1,7 +1,10 @@
 ---
 name: note-system
+group: Knowledge and productivity
 description: >-
-  Design a personal knowledge system: methodology (PARA, Zettelkasten, MOC) then the setup in Obsidian, Notion or Logseq.
+  Design a personal knowledge system: methodology (PARA, Zettelkasten, MOC) then the setup in
+  Obsidian, Notion or Logseq. Use when structuring Obsidian, Notion, Zettelkasten, or personal
+  wikis.
 ---
 # Note System
 

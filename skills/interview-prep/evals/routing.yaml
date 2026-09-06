@@ -1,7 +1,16 @@
 should_fire:
-  - "help with interview prep"
-  - "prepare with role-specific question banks, star frameworks and mock behavioural rounds."
-  - "run interview-prep workflow"
+  - 'practice answering ''tell me about a time you had a technical disagreement with a teammate'''
+  - 'structure my past project experiences using the STAR method (Situation, Task, Action, Result)'
+  - 'prepare answers to common executive leadership and culture fit questions'
+  - 'conduct a mock behavioral interview for an engineering management position'
+  - 'how should I answer ''what is your greatest weakness'' honestly without red flags'
+  - 'prepare thoughtful, high-signal questions to ask the interviewer at the end of the call'
+  - 'practice explaining a complex architectural failure and what I learned from it'
+  - 'prepare for a technical system design interview: pacing, clarifying, and tradeoffs'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'tailor my resume bullets for an application submission'
+    expect: 'resume'
+  - prompt: 'build an outbound job application pipeline and target list'
+    expect: 'job-search'
+  - prompt: 'negotiate an employment job offer and equity package'
+    expect: 'negotiation'

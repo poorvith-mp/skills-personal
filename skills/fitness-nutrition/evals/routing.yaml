@@ -1,7 +1,16 @@
 should_fire:
-  - "help with fitness nutrition"
-  - "build workout programmes and nutrition plans with macro targets, progressive overload and meal prep."
-  - "run fitness-nutrition workflow"
+  - 'design a 4-day upper/lower strength training split with progressive overload'
+  - 'calculate my daily caloric and macronutrient targets (protein, carbs, fat) for fat loss'
+  - 'build a sustainable meal prep plan for a busy software engineer working from home'
+  - 'how to balance hypertrophy training with Zone 2 cardiovascular endurance'
+  - 'structure a workout routine for travel when I only have access to hotel dumbbells'
+  - 'optimize sleep hygiene, recovery protocols, and supplement timing for energy'
+  - 'troubleshoot a strength plateau on my bench press and deadlift'
+  - 'design an evidence-based stretching and mobility routine to counter sitting at a desk all day'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build atomic daily consistency habits and routine stacking'
+    expect: 'habits'
+  - prompt: 'audit daily calendar time and eliminate meeting fatigue'
+    expect: 'productivity-audit'
+  - prompt: 'plan personal travel itineraries and restaurant bookings'
+    expect: 'travel-planning'

@@ -1,7 +1,9 @@
 ---
 name: resume
+group: Career
 description: >-
-  Tailor a resume to a named job description with ATS-safe formatting and quantified achievement bullets.
+  Tailor a resume to a named job description with ATS-safe formatting and quantified achievement
+  bullets. Use when crafting resumes, CVs, impact bullets, or ATS optimization.
 ---
 # Resume
 

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with voice profile"
-  - "capture how you actually write"
-  - "run voice-profile workflow"
+  - 'analyze these 5 essays I wrote and extract my distinctive writing voice profile'
+  - 'create a voice guide detailing my sentence rhythm, favorite phrases, and taboos'
+  - 'define the rules that make my writing sound authentically human and not like an AI'
+  - 'document my preferred tone: direct, understated, technical, and slightly dry'
+  - 'create a voice profile file that my social posts and blog drafts must obey'
+  - 'identify the corporate buzzwords and filler phrases that I never use'
+  - 'how do I ensure ghostwritten articles sound exactly like my speaking voice'
+  - 'extract the rhetorical devices, humor style, and pacing from my personal writing'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'record my biographical background, projects, and work context'
+    expect: 'personal-context'
+  - prompt: 'line-edit a specific draft article to remove fluff and tighten sentences'
+    expect: 'line-editing'
+  - prompt: 'audit an article to eliminate generic AI tells and tropes'
+    expect: 'writing-taste'

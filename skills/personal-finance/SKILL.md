@@ -1,7 +1,9 @@
 ---
 name: personal-finance
+group: Life admin
 description: >-
-  Build a personal budget and money plan from income, expenses, debts and savings.
+  Build a personal budget and money plan from income, expenses, debts and savings. Use when
+  building personal budgets, emergency funds, or savings allocations.
 ---
 # Personal Finance
 

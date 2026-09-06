@@ -1,7 +1,9 @@
 ---
 name: personal-crm
+group: Life admin
 description: >-
-  Design a personal CRM: contact metadata, interaction logs, follow-up reminders and relationship strength.
+  Design a personal CRM: contact metadata, interaction logs, follow-up reminders and relationship
+  strength. Use when maintaining professional relationships, staying in touch, or contact logs.
 ---
 # Personal CRM
 

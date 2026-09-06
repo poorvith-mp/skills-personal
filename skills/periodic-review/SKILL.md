@@ -1,7 +1,9 @@
 ---
 name: periodic-review
+group: Knowledge and productivity
 description: >-
-  Structure weekly, monthly and annual reviews with goal tracking and retrospectives.
+  Structure weekly, monthly and annual reviews with goal tracking and retrospectives. Use when
+  running weekly, monthly, quarterly, or annual life reviews.
 ---
 # Periodic Review
 

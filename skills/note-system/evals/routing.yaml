@@ -1,7 +1,16 @@
 should_fire:
-  - "help with note system"
-  - "design a personal knowledge system"
-  - "run note-system workflow"
+  - 'design a clean personal knowledge management system in Obsidian using Zettelkasten'
+  - 'structure a digital second brain in Notion: PARA method (Projects, Areas, Resources, Archives)'
+  - 'how to organize interconnected notes using bidirectional links and atomic concepts'
+  - 'create a standardized note template for book summaries and research insights'
+  - 'clean up a bloated, messy collection of 500 unorganized personal notes'
+  - 'establish tagging conventions and folder taxonomy that scale without maintenance drag'
+  - 'design an inbox capture and weekly processing routine for fleeting thoughts'
+  - 'integrate web clipping and article highlights seamlessly into my markdown vault'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'conduct a weekly or monthly personal retrospective review'
+    expect: 'periodic-review'
+  - prompt: 'audit my daily calendar and eliminate productivity bottlenecks'
+    expect: 'productivity-audit'
+  - prompt: 'build a personal CRM to keep in touch with colleagues and friends'
+    expect: 'personal-crm'

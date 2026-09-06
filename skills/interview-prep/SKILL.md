@@ -1,7 +1,9 @@
 ---
 name: interview-prep
+group: Career
 description: >-
-  Prepare with role-specific question banks, STAR frameworks and mock behavioural rounds.
+  Prepare with role-specific question banks, STAR frameworks and mock behavioural rounds. Use when
+  practicing behavioral STAR stories, technical questions, or mock interviews.
 ---
 # Interview Prep
 

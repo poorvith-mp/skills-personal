@@ -1,7 +1,9 @@
 ---
 name: 3d-printing
+group: Hobby
 description: >-
   Tune filament profiles: temperature, flow, retraction and cooling against material and printer.
+  Use when troubleshooting FDM/resin slicing, print bed adhesion, or layer lines.
 ---
 # 3D Printing
 

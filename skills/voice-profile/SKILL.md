@@ -1,7 +1,9 @@
 ---
 name: voice-profile
+group: Identity
 description: >-
-  Capture how you actually write: rhythm, vocabulary, structural habits, phrases you never use, and real samples.
+  Capture how you actually write: rhythm, vocabulary, structural habits, phrases you never use,
+  and real samples. Use when analyzing writing voice, tone rules, rhythm, or anti-AI style.
 ---
 # Voice Profile
 

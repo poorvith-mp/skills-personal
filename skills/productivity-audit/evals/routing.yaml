@@ -1,7 +1,16 @@
 should_fire:
-  - "help with productivity audit"
-  - "audit your week for time sinks, context-switching cost and tool sprawl."
-  - "run productivity-audit workflow"
+  - 'audit my weekly calendar to find where I am losing 10+ hours to unnecessary meetings'
+  - 'analyze my daily work patterns to reduce context switching and fragmented focus'
+  - 'design an ideal maker-vs-manager schedule that protects deep work blocks'
+  - 'identify energy dips during the day and schedule demanding cognitive tasks accordingly'
+  - 'audit my daily notification inputs to eliminate distractions and digital clutter'
+  - 'evaluate whether my current task management workflow is causing mental overwhelm'
+  - 'how to say no gracefully to low-priority meeting requests and incoming favors'
+  - 'calculate my meeting-to-deep-work ratio and set boundaries to improve focus'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'run a structured weekly, monthly, or annual personal review'
+    expect: 'periodic-review'
+  - prompt: 'build atomic daily habits using habit stacking and cues'
+    expect: 'habits'
+  - prompt: 'redesign operational workflows across a business team'
+    expect: 'process-redesign'

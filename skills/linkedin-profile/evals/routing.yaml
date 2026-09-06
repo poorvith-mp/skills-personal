@@ -1,7 +1,16 @@
 should_fire:
-  - "help with linkedin profile"
-  - "rewrite the profile for recruiter search"
-  - "run linkedin-profile workflow"
+  - 'rewrite my LinkedIn headline to attract inbound messages from tech recruiters'
+  - 'craft a compelling, story-driven ''About'' summary that showcases my expertise'
+  - 'structure the experience section on my LinkedIn profile for maximum readability'
+  - 'optimize my LinkedIn profile keywords to rank higher in recruiter searches'
+  - 'curate the Featured section on my LinkedIn to highlight my top open-source projects'
+  - 'reposition my LinkedIn profile to transition from engineering to product management'
+  - 'write an engaging bio that balances technical credibility with human personality'
+  - 'audit my LinkedIn profile to improve profile views and connection acceptance rates'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'format and tailor my formal PDF resume for job applications'
+    expect: 'resume'
+  - prompt: 'write an organic thought-leadership post for LinkedIn feeds'
+    expect: 'social-content'
+  - prompt: 'prepare answers for an upcoming hiring manager interview'
+    expect: 'interview-prep'

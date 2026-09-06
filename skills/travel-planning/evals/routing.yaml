@@ -1,7 +1,16 @@
 should_fire:
-  - "help with travel planning"
-  - "build itineraries with daily schedules, accommodation and transport options and budget breakdowns."
-  - "run travel-planning workflow"
+  - 'plan a realistic 7-day travel itinerary for Tokyo balancing sights with downtime'
+  - 'optimize flight routes, layovers, and airport transfers for an international trip'
+  - 'create an ultra-light carry-on packing list for a 2-week trip through Europe'
+  - 'recommend neighborhood areas to stay in Lisbon for a remote worker needing fast Wi-Fi'
+  - 'research visa requirements, passport validity rules, and vaccination guidelines'
+  - 'structure a daily itinerary that groups nearby attractions to minimize transit fatigue'
+  - 'find hidden-gem local restaurants and coffee shops away from tourist traps'
+  - 'compile all booking confirmations, train tickets, and hotel addresses into one master brief'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'manage corporate business operations and employee office travel'
+    expect: 'operations'
+  - prompt: 'build a monthly personal budget and expense tracker'
+    expect: 'personal-finance'
+  - prompt: 'plan multi-team cross-functional project milestone timelines'
+    expect: 'project-planning'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with resume"
-  - "tailor a resume to a named job description with ats-safe formatting and quantified achievement bullets."
-  - "run resume workflow"
+  - 'tailor my resume for a Staff Software Engineer role at a growth-stage startup'
+  - 'rewrite my job experience bullets to use the Google X-Y-Z impact formula'
+  - 'optimize my resume formatting to pass Applicant Tracking Systems (ATS) cleanly'
+  - 'condense my 10-year tech career history into a punchy, 1-page executive resume'
+  - 'quantify my achievements on my CV with concrete business and latency metrics'
+  - 'reframe my academic research experience into commercial engineering accomplishments'
+  - 'highlight my leadership and architectural contributions on my senior resume'
+  - 'eliminate passive wording and generic job duties from my resume bullets'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'optimize my LinkedIn profile headline, about section, and featured links'
+    expect: 'linkedin-profile'
+  - prompt: 'practice behavioral interview questions and STAR framework stories'
+    expect: 'interview-prep'
+  - prompt: 'develop a strategic job search pipeline and company target list'
+    expect: 'job-search'

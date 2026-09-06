@@ -1,7 +1,10 @@
 ---
 name: job-search
+group: Career
 description: >-
-  Run the application pipeline: target list, stage tracking, follow-up cadence and a weekly read on where applications die.
+  Run the application pipeline: target list, stage tracking, follow-up cadence and a weekly read
+  on where applications die. Use when planning job search pipelines, target companies, or warm
+  outreach.
 ---
 # Job Search
 

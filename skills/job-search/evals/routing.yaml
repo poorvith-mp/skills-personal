@@ -1,7 +1,16 @@
 should_fire:
-  - "help with job search"
-  - "run the application pipeline"
-  - "run job-search workflow"
+  - 'build a prioritized target list of 30 remote software companies hiring in my niche'
+  - 'develop a structured outbound pipeline to reach engineering managers directly'
+  - 'write a warm networking outreach message to a former colleague requesting a referral'
+  - 'track job applications, interview stages, and follow-up dates in a structured pipeline'
+  - 'how to uncover unlisted and hidden job opportunities through community networking'
+  - 'craft an effective cold email to a startup founder pitching my engineering skills'
+  - 'evaluate and compare two competing job offers based on total compensation and equity'
+  - 'structure a 60-day strategic job search plan to land a senior engineering role'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'tailor my resume bullets for an application submission'
+    expect: 'resume'
+  - prompt: 'practice mock behavioral and technical interview questions'
+    expect: 'interview-prep'
+  - prompt: 'conduct sales prospecting to find business buyers'
+    expect: 'prospecting'

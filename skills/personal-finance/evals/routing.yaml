@@ -1,7 +1,16 @@
 should_fire:
-  - "help with personal finance"
-  - "build a personal budget and money plan from income, expenses, debts and savings."
-  - "run personal-finance workflow"
+  - 'build a monthly personal budget using the 50/30/20 rule or zero-based budgeting'
+  - 'how should I allocate my savings: emergency fund, 401(k) match, Roth IRA, brokerage'
+  - 'calculate my monthly savings rate and project my timeline to financial independence'
+  - 'design a debt payoff strategy comparing the avalanche vs snowball methods'
+  - 'audit my recurring monthly personal subscriptions to cut unnecessary spending'
+  - 'how many months of living expenses should I keep in my high-yield savings account'
+  - 'set up an automated personal finance system where paycheck allocations run on autopilot'
+  - 'track my personal net worth progression across assets and liabilities'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'optimize cryptocurrency tax reporting and loss harvesting'
+    expect: 'crypto-tax'
+  - prompt: 'model corporate SaaS cash runway and startup burn rates'
+    expect: 'runway-planning'
+  - prompt: 'conduct fundamental investment analysis on public stocks'
+    expect: 'investment-research'

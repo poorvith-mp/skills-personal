@@ -1,7 +1,16 @@
 should_fire:
-  - "help with habits"
-  - "design habit systems"
-  - "run habits workflow"
+  - 'design an atomic daily reading habit using habit stacking and environmental cues'
+  - 'how to break a compulsive phone-checking routine using friction and replacement'
+  - 'build a morning routine that primes focus without requiring 2 hours of ritual'
+  - 'set up a habit tracking system that emphasizes consistency over perfection'
+  - 'how to bounce back after breaking a 30-day habit streak without giving up'
+  - 'design micro-habits that take less than 2 minutes to start a writing practice'
+  - 'eliminate friction that prevents me from going to the gym consistently'
+  - 'apply identity-based habit formation: becoming the kind of person who exercises daily'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design an evidence-based strength training workout and nutrition plan'
+    expect: 'fitness-nutrition'
+  - prompt: 'audit daily work schedule and calendar productivity'
+    expect: 'productivity-audit'
+  - prompt: 'run a weekly personal review and reflection session'
+    expect: 'periodic-review'

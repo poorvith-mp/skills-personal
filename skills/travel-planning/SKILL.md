@@ -1,7 +1,9 @@
 ---
 name: travel-planning
+group: Life admin
 description: >-
-  Build itineraries with daily schedules, accommodation and transport options and budget breakdowns.
+  Build itineraries with daily schedules, accommodation and transport options and budget
+  breakdowns. Use when planning trip itineraries, flights, travel logistics, or packing.
 ---
 # Travel Planning
 

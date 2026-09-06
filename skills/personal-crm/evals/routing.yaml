@@ -1,7 +1,16 @@
 should_fire:
-  - "help with personal crm"
-  - "design a personal crm"
-  - "run personal-crm workflow"
+  - 'build a lightweight personal CRM to stay in touch with mentors, friends, and colleagues'
+  - 'set up periodic touchpoint reminders (every 30, 90, or 180 days) for key contacts'
+  - 'log personal notes from conversations: family names, interests, and recent projects'
+  - 'write warm check-in messages to reconnect with former coworkers without asking for favors'
+  - 'organize my professional network into tiers based on relationship depth'
+  - 'keep track of introductions I''ve made and follow up to see how they went'
+  - 'manage a list of interesting people I want to meet at an upcoming conference'
+  - 'create a system to remember birthdays, anniversaries, and personal milestones of peers'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'manage sales pipeline deals and B2B customer leads'
+    expect: 'pipeline-health'
+  - prompt: 'conduct cold outbound sales outreach to prospective enterprise buyers'
+    expect: 'cold-outreach'
+  - prompt: 'organize personal research notes and atomic knowledge in Obsidian'
+    expect: 'note-system'

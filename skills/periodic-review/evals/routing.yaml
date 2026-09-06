@@ -1,7 +1,16 @@
 should_fire:
-  - "help with periodic review"
-  - "structure weekly, monthly and annual reviews with goal tracking and retrospectives."
-  - "run periodic-review workflow"
+  - 'guide me through my weekly review: what got done, what slipped, and what matters next week'
+  - 'conduct a comprehensive monthly retrospective on my goals, finances, and health'
+  - 'structure an annual life review reflecting on lessons learned and setting intentions'
+  - 'clear my mental RAM by doing a comprehensive brain dump and inbox zero sweep'
+  - 'evaluate whether my daily activities over the last quarter aligned with my core priorities'
+  - 'celebrate quarterly wins and diagnose why specific personal goals were abandoned'
+  - 'set quarterly focus themes and milestones for the upcoming 90 days'
+  - 'design a repeatable 30-minute Sunday review ritual to start the week with clarity'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit calendar time and eliminate meeting bloat'
+    expect: 'productivity-audit'
+  - prompt: 'design a personal knowledge management note vault'
+    expect: 'note-system'
+  - prompt: 'manage quarterly company board meeting decks'
+    expect: 'board-reporting'

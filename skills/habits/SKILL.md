@@ -1,7 +1,9 @@
 ---
 name: habits
+group: Habits and health
 description: >-
-  Design habit systems: habit stacking, cue-routine-reward loops, tracking methods and accountability.
+  Design habit systems: habit stacking, cue-routine-reward loops, tracking methods and
+  accountability. Use when building atomic habits, streak tracking, or breaking routines.
 ---
 # Habits
 
