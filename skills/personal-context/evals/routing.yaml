@@ -1,0 +1,7 @@
+should_fire:
+  - "help with personal context"
+  - "capture preferences, working style, constraints and recurring context into a reusable profile an assistant can read."
+  - "run personal-context workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

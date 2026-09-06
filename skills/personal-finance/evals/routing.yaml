@@ -1,0 +1,7 @@
+should_fire:
+  - "help with personal finance"
+  - "build a personal budget and money plan from income, expenses, debts and savings."
+  - "run personal-finance workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

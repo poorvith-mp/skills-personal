@@ -1,0 +1,7 @@
+should_fire:
+  - "help with resume"
+  - "tailor a resume to a named job description with ats-safe formatting and quantified achievement bullets."
+  - "run resume workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

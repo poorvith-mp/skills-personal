@@ -1,0 +1,7 @@
+should_fire:
+  - "help with note system"
+  - "design a personal knowledge system"
+  - "run note-system workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

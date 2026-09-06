@@ -1,0 +1,7 @@
+should_fire:
+  - "help with fitness nutrition"
+  - "build workout programmes and nutrition plans with macro targets, progressive overload and meal prep."
+  - "run fitness-nutrition workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

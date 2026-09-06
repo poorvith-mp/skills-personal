@@ -1,0 +1,7 @@
+should_fire:
+  - "help with interview prep"
+  - "prepare with role-specific question banks, star frameworks and mock behavioural rounds."
+  - "run interview-prep workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

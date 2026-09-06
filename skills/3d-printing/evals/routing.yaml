@@ -1,0 +1,7 @@
+should_fire:
+  - "help with 3d printing"
+  - "tune filament profiles"
+  - "run 3d-printing workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

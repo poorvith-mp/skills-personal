@@ -1,0 +1,7 @@
+should_fire:
+  - "help with habits"
+  - "design habit systems"
+  - "run habits workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with productivity audit"
+  - "audit your week for time sinks, context-switching cost and tool sprawl."
+  - "run productivity-audit workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

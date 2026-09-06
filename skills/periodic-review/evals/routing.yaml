@@ -1,0 +1,7 @@
+should_fire:
+  - "help with periodic review"
+  - "structure weekly, monthly and annual reviews with goal tracking and retrospectives."
+  - "run periodic-review workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

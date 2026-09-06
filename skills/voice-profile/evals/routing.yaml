@@ -1,0 +1,7 @@
+should_fire:
+  - "help with voice profile"
+  - "capture how you actually write"
+  - "run voice-profile workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

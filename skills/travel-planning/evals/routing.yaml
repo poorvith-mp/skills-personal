@@ -1,0 +1,7 @@
+should_fire:
+  - "help with travel planning"
+  - "build itineraries with daily schedules, accommodation and transport options and budget breakdowns."
+  - "run travel-planning workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

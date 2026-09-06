@@ -1,0 +1,7 @@
+should_fire:
+  - "help with personal crm"
+  - "design a personal crm"
+  - "run personal-crm workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

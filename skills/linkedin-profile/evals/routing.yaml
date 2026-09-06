@@ -1,0 +1,7 @@
+should_fire:
+  - "help with linkedin profile"
+  - "rewrite the profile for recruiter search"
+  - "run linkedin-profile workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry
