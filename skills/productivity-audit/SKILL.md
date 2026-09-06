@@ -5,94 +5,56 @@ description: >-
   Audit your week for time sinks, context-switching cost and tool sprawl. Use when auditing
   calendar time, task workflows, context switching, or energy.
 ---
+
 # Productivity Audit
 
-You are a productivity systems expert. When given a description of current workflow and habits, conduct a thorough audit to identify bottlenecks and recommend specific improvements.
-## Process
-1. Map the current workflow and daily habits
-2. Identify time drains and bottlenecks
-3. Assess tool and system effectiveness
-4. Recommend specific improvements
-5. Create an implementation plan with priorities
-## Output Format
-## Productivity Audit: [Name/Role]
-### Current Workflow Map
-[Visual/text mapping of typical day/week]
-### 🔍 Bottlenecks Identified
-1. **[Bottleneck 1]**
-	- Impact: High/Medium/Low
-	- Time cost: ~X hours/week
-	- Root cause: [Why this happens]
-2. **[Bottleneck 2]**
-	- Impact: High/Medium/Low
-	- Time cost: ~X hours/week
-	- Root cause: [Why this happens]
-### ✅ What's Working Well
-- [Effective habit/system 1]
-- [Effective habit/system 2]
-### 🚀 Recommendations
-#### Quick Wins (implement this week)
-1. [Specific, easy change]
-2. [Specific, easy change]
-#### System Changes (implement this month)
-1. [Process/tool change]
-2. [Process/tool change]
-#### Mindset Shifts (ongoing)
-1. [Behavioral change]
-2. [Behavioral change]
-### Implementation Priority Matrix
-<table header-row="true">
-<tr>
-<td>Quick</td>
-<td>Impact</td>
-<td>Action</td>
-</tr>
-<tr>
-<td>High</td>
-<td>High</td>
-<td>Do first</td>
-</tr>
-<tr>
-<td>High</td>
-<td>Low</td>
-<td>Batch</td>
-</tr>
-<tr>
-<td>Low</td>
-<td>High</td>
-<td>Schedule</td>
-</tr>
-<tr>
-<td>Low</td>
-<td>Low</td>
-<td>Eliminate</td>
-</tr>
-</table>
-## Audit Before Optimizing
-The most common mistake is optimizing a task that shouldn't exist at all. Before recommending systems, ask: Eliminate? Automate? Delegate? Only then: Optimize.
-## The 4 Deepest Productivity Drains
-1. **Context switching**: Each switch costs 15-23 minutes of refocus time
-2. **Meeting overload**: Most recurring meetings could be async
-3. **Notifications**: Every notification is an interruption — ruthlessly limit them
-4. **Decision fatigue**: Systematize or eliminate low-stakes decisions
-## Energy Management Over Time Management
-Peak hours (sharpest): deep work, complex thinking. Mid-energy: meetings, collaboration. Low energy: admin, routine tasks. Rearrange your calendar to match.
+Productivity is constrained by cognitive fragmentation and tool sprawl, not lack of effort. Optimizing a task that should be eliminated or batched is the primary source of operational friction. A rigorous audit quantifies context-switching costs, audits calendar fragmentation, and consolidates overlapping tools.
 
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## 1. The 3-Dimension Audit Framework
 
-## Verification & Quality Checklist
+Evaluate a typical 7-day working period across three explicit axes:
 
-- [ ] Every input figure traced to a named source with an as-of date.
-- [ ] Arithmetic reconciles: components tie to totals, periods tie to the annual figure.
-- [ ] Each assumption stated explicitly with a plausible range, not a single point.
-- [ ] Sensitivity shown on the three drivers with the largest effect on the result.
-- [ ] Units, currency, and time period labelled on every figure presented.
+### A. Calendar Fragmentation & Context Switching
+- **Deep Work Blocks**: Identify continuous blocks of uninterrupted focus (minimum 90 minutes). Fewer than two per day indicates severe fragmentation.
+- **Switching Tax**: Count daily context shifts between distinct problem domains (e.g. coding to client calls to hiring reviews). Each domain switch incurs a 15–23 minute cognitive recovery cost.
+- **Meeting ROI**: Audit recurring meetings: eliminate status update rituals that can be handled asynchronously via written summaries.
 
-## Anti-Patterns & Constraints
+### B. Tool Sprawl & Information Dispersion
+- Inventory active software subscriptions and capture tools (Notion, Obsidian, Slack, Trello, Linear, Google Docs, email).
+- Identify duplicate capture points: if tasks or ideas live in more than two places, capture discipline fails and tasks get lost.
+- Enforce the Single Source of Truth rule: one tool for task tracking, one for long-term reference, one for asynchronous communication.
 
-- NEVER present a point estimate without the assumptions behind it.
-- NEVER mix fiscal and calendar periods without labelling which is which.
-- NEVER imply licensed tax, audit, or investment advice - state the boundary.
+### C. Energy-Chronotype Alignment
+- **Peak Focus Window (e.g. 08:00–12:00)**: Reserved strictly for creative synthesis, complex architecture, or deep coding. No meetings, notifications silenced.
+- **Collaborative Window (e.g. 13:00–16:00)**: Synchronous calls, reviews, team syncs.
+- **Low-Cognitive Administrative Window (e.g. 16:00–17:30)**: Email processing, expense filing, calendar planning, ticket triage.
+
+## 2. Action Priority Matrix
+
+| Urgency / Ease | High Impact | Low Impact |
+|---|---|---|
+| **High Ease (Quick Win)** | **Do First**: Batch daily meetings into afternoon blocks; silence push notifications. | **Batch**: Triage email/Slack at 11:30 and 16:30 only; unsubscribe from noise. |
+| **Low Ease (Systemic Change)** | **Schedule**: Consolidate tool stack into single task tracker; institute "No-Meeting Wednesday". | **Eliminate**: Kill recurring status meetings; delete abandoned tracking tools. |
+
+## 3. Audit Deliverables
+1. **Time-Sink Inventory**: Quantified hours lost weekly to recurring low-leverage tasks.
+2. **Context-Switching Penalty**: Visual heatmap of fragmented days showing cognitive friction points.
+3. **Tool Consolidation Plan**: Specific migration and deprecation steps to reduce tool overhead.
+4. **Target Ideal Week**: Block-scheduled calendar architecture matching tasks to peak biological energy.
+
+## Critical Rules
+1. Never recommend adding a new productivity tool until at least one redundant tool is removed.
+2. Eliminate before automating, and automate before delegating.
+3. Keep daily tracking friction under 5 minutes; if a time-tracking system requires heavy admin overhead, it will rot within two weeks.
+
+## Verification Checklist
+- [ ] Quantified baseline hours spent across deep work, meetings, admin, and context switching.
+- [ ] Tool stack audited and overlapping tools identified with explicit consolidation paths.
+- [ ] Calendar redesign guarantees at least two 90-minute uninterrupted deep work blocks daily.
+- [ ] Recurring meetings challenged with asynchronous written alternatives.
+- [ ] Implementation plan prioritized by impact versus operational effort.
+
+## Anti-Patterns
+- NEVER prescribe complex multi-layered productivity architectures (e.g. over-engineered Notion databases) that take more time to maintain than they save.
+- NEVER treat all 8 hours of a workday as interchangeable deep focus time.
+- NEVER allow real-time communication channels (Slack/Teams) to dictate daily priority order over structured focus blocks.

@@ -5,6 +5,7 @@ description: >-
   Build workout programmes and nutrition plans with macro targets, progressive overload and meal
   prep. Use when designing workout splits, progressive overload, or macronutrient plans.
 ---
+
 # Fitness Nutrition
 
 You're helping someone build a sustainable routine, not prescribing a medical protocol. Stay in the lane of general fitness structure and defer anything that looks like it needs individualized medical or clinical nutrition judgment.

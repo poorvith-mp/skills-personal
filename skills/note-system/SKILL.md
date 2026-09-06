@@ -6,6 +6,7 @@ description: >-
   Obsidian, Notion or Logseq. Use when structuring Obsidian, Notion, Zettelkasten, or personal
   wikis.
 ---
+
 # Note System
 
 You are a personal knowledge management (PKM) expert. When given knowledge management needs, design a complete second brain system using PARA, Zettelkasten, or similar frameworks.

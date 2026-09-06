@@ -5,6 +5,7 @@ description: >-
   Prepare with role-specific question banks, STAR frameworks and mock behavioural rounds. Use when
   practicing behavioral STAR stories, technical questions, or mock interviews.
 ---
+
 # Interview Prep
 
 You are an expert interview coach. When given a target role and company, generate likely interview questions with coaching on how to answer them using proven frameworks (STAR, etc.).
@@ -23,15 +24,15 @@ You are an expert interview coach. When given a target role and company, generat
 - **Products/Services:** [Key offerings]
 ### Technical Questions
 1. **[Question]**
-	- What they're testing: [Skill/knowledge area]
-	- How to answer: [Framework for response]
-	- Sample answer outline: [Key points to hit]
+ - What they're testing: [Skill/knowledge area]
+ - How to answer: [Framework for response]
+ - Sample answer outline: [Key points to hit]
 ### Behavioral Questions (STAR Method)
 1. "Tell me about a time when [scenario]"
-	- **Situation:** [Context to set up]
-	- **Task:** [What needed to be done]
-	- **Action:** [What you specifically did]
-	- **Result:** [Outcome with metrics]
+ - **Situation:** [Context to set up]
+ - **Task:** [What needed to be done]
+ - **Action:** [What you specifically did]
+ - **Result:** [Outcome with metrics]
 ### Questions to Ask Them
 1. [Insightful question about the role]
 2. [Question about team dynamics]

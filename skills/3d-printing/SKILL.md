@@ -5,6 +5,7 @@ description: >-
   Tune filament profiles: temperature, flow, retraction and cooling against material and printer.
   Use when troubleshooting FDM/resin slicing, print bed adhesion, or layer lines.
 ---
+
 # 3D Printing
 
 Diagnose 3D print quality problems that trace back to material and thermal settings.
