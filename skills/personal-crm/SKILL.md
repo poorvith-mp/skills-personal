@@ -1,5 +1,6 @@
 ---
 name: personal-crm
+last_reviewed: 2026-09-06
 group: Life admin
 description: >-
   Design a personal CRM: contact metadata, interaction logs, follow-up reminders and relationship

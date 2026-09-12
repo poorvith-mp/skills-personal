@@ -1,5 +1,6 @@
 ---
 name: personal-context
+last_reviewed: 2026-09-06
 group: Identity
 description: >-
   Capture preferences, working style, constraints and recurring context into a reusable profile an

@@ -1,5 +1,6 @@
 ---
 name: note-system
+last_reviewed: 2026-09-06
 group: Knowledge and productivity
 description: >-
   Design a personal knowledge system: methodology (PARA, Zettelkasten, MOC) then the setup in

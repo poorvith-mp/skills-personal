@@ -1,5 +1,6 @@
 ---
 name: habits
+last_reviewed: 2026-09-06
 group: Habits and health
 description: >-
   Design habit systems: habit stacking, cue-routine-reward loops, tracking methods and

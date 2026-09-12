@@ -1,5 +1,6 @@
 ---
 name: periodic-review
+last_reviewed: 2026-09-06
 group: Knowledge and productivity
 description: >-
   Structure weekly, monthly and annual reviews with goal tracking and retrospectives. Use when

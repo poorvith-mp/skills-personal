@@ -1,5 +1,6 @@
 ---
 name: second-brain-architect
+last_reviewed: 2026-09-06
 description: Moved to note-system in skills-personal. Removed in v4.1.
 deprecated: true
 ---

@@ -1,5 +1,6 @@
 ---
 name: linkedin-profile
+last_reviewed: 2026-09-06
 group: Career
 description: >-
   Rewrite the profile for recruiter search: headline, summary, skills and keyword coverage. Use

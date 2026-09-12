@@ -1,5 +1,6 @@
 ---
 name: fitness-nutrition
+last_reviewed: 2026-09-06
 group: Habits and health
 description: >-
   Build workout programmes and nutrition plans with macro targets, progressive overload and meal

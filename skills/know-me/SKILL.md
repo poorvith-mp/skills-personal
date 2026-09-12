@@ -1,5 +1,6 @@
 ---
 name: know-me
+last_reviewed: 2026-09-06
 description: Moved to personal-context in skills-personal. Removed in v4.1.
 deprecated: true
 ---

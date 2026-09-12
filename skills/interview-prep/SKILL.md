@@ -1,5 +1,6 @@
 ---
 name: interview-prep
+last_reviewed: 2026-09-06
 group: Career
 description: >-
   Prepare with role-specific question banks, STAR frameworks and mock behavioural rounds. Use when

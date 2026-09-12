@@ -1,5 +1,6 @@
 ---
 name: resume
+last_reviewed: 2026-09-06
 group: Career
 description: >-
   Tailor a resume to a named job description with ATS-safe formatting and quantified achievement

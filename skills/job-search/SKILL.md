@@ -1,5 +1,6 @@
 ---
 name: job-search
+last_reviewed: 2026-09-06
 group: Career
 description: >-
   Run the application pipeline: target list, stage tracking, follow-up cadence and a weekly read

@@ -1,5 +1,6 @@
 ---
 name: voice-profile
+last_reviewed: 2026-09-06
 group: Identity
 description: >-
   Capture how you actually write: rhythm, vocabulary, structural habits, phrases you never use,

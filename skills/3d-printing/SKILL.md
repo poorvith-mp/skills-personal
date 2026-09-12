@@ -1,5 +1,6 @@
 ---
 name: 3d-printing
+last_reviewed: 2026-09-06
 group: Hobby
 description: >-
   Tune filament profiles: temperature, flow, retraction and cooling against material and printer.

@@ -1,5 +1,6 @@
 ---
 name: personal-finance
+last_reviewed: 2026-09-06
 group: Life admin
 description: >-
   Build a personal budget and money plan from income, expenses, debts and savings. Use when

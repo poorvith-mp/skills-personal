@@ -1,5 +1,6 @@
 ---
 name: travel-planning
+last_reviewed: 2026-09-06
 group: Life admin
 description: >-
   Build itineraries with daily schedules, accommodation and transport options and budget
